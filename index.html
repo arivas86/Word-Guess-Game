@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+        <header class="main-header">
+                <h1>GUESS THE DJ!</h1>
+        </header>
+    
+        <main>
+                
+            <h4 id="pressPlay">Press Any Letter Key to Start</h4>  <br><br><br>
+            <h4 id ="pressPlay">Who's this DJ?!</h4>
+            <p id="wordGenerated"></p>
+            <hr>
+                   
+            <div class="row">
+                <div class="col-sm-3"><div class="card" style="width: 15rem; height: 15rem">
+                    <div class="card-body">
+                    <h5 class="card-title">Wins</h5>
+                    <p id="Wins"></p>
+                    </div>
+                    </div></div>
+                <div class="col-sm-3"><div class="card" style="width: 15rem; height: 15rem">
+                    <div class="card-body">
+                    <h5 class="card-title">Losses</h5>
+                    <p id="Losses"></p>
+                    </div>
+                    </div></div>
+                    
+                    <hr>
+                
+                      
+                <div class="col-sm-3"><div class="card" style="width: 15rem; height: 15rem">
+                    <div class="card-body">
+                    <h5 class="card-title">Guessed Letters</h5>
+                    <p id="lettersGuessed"></p>
+                    </div>
+                    </div></div>
+                <div class="col-sm-3"><div class="card" style="width: 15rem; height: 15rem">
+                    <div class="card-body">
+                    <h5 class="card-title">Guesses Left:</h5>
+                    <p id="guessesLeft"></p>
+                    </div>
+                    </div></div></div>
+
+            
+        </main>
+        <script src="assets/javascript/game.js" type="text/javascript"></script>
+</body>
+</html>
